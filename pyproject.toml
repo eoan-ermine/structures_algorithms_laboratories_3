@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "structures_algorithms_laboratories_3"
+version = "0.1.0"
+description = ""
+authors = ["Danil Sidoruk <danilsidoruknv@yandex.ru>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+PySide6 = "^6.6.2"
+graphviz = "^0.20.3"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.3.0"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
